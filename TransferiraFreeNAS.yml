@@ -1,0 +1,7 @@
+---
+# tasks file for template
+- name: copiando un fichero
+  copy:
+    src: /tmp/*.*
+    dest: /mnt/MOCNAS/Respaldo_Ansible/MOC_DEMOS/*
+ 
